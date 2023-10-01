@@ -6,6 +6,8 @@ public class Test {
         book.author = "Leo Tolstoy";
         book.title = "War and Peace";
         book.id = 1;
+        book.rating=8.9f;
+        book.countScore=231;
 
         Subject subject=new Subject();
         subject.lesson="History";

@@ -6,12 +6,15 @@ public class Book {
     int id;
     float rating;
     int countScore;
+
     @Override
     public String toString() {
         return "Book{" +
                 "author='" + author + '\'' +
                 ", title='" + title + '\'' +
                 ", id=" + id +
+                ", rating=" + rating +
+                ", countScore=" + countScore +
                 '}';
     }
 
